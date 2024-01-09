@@ -1,10 +1,10 @@
-import Quiz from "./components/Quiz/Quiz";
-function App() {
-  return (
-    <div >
-       <Quiz />
-    </div>
-  );
+import TodoList from "./features/todos/TodoList";
+const App = () => {
+    return (  
+        <div>
+           <TodoList />
+        </div>
+    );
 }
-
+ 
 export default App;
